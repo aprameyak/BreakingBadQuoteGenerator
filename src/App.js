@@ -21,7 +21,6 @@ export default function App() {
     }
   }
 
-  // Define styles inside JS
   const containerStyle = {
     display: 'flex',
     flexDirection: 'column',
