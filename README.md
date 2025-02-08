@@ -22,4 +22,8 @@ The BreakingBad Quote Generator is a fun web application that displays random qu
 2. **Button for New Quote**: When the user clicks the "Generate" button, the app makes a request to the Breaking Bad API to fetch a new random quote and its corresponding character.
 3. **Dynamic Display**: The quote and character are dynamically updated on the page without reloading, thanks to React's state management.
 
+## Live Deployment
+
+- **View Here**: https://breakingbadquotes-puce.vercel.app/
+
 
