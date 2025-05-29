@@ -1,6 +1,6 @@
 # BreakingBad Quote Generator  
 
-![React](https://img.shields.io/badge/React.js-blue?logo=react)  
+![React](https://img.shields.io/badge/React.js-blue?logo=react&style=flat-square)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)  
 ![Vercel](https://img.shields.io/badge/ercel-black?logo=vercel)  
 
