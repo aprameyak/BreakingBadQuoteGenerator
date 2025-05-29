@@ -1,7 +1,7 @@
 # BreakingBad Quote Generator  
 
 ![React](https://img.shields.io/badge/React.js-20232A?logo=react&logoColor=white&style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/JavaScriptF7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge)
 
 ## About  
