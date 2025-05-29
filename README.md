@@ -1,9 +1,8 @@
 # BreakingBad Quote Generator  
 
-![React](https://img.shields.io/badge/Frontend-React.js-blue?logo=react)  
+![React](https://img.shields.io/badge/React.js-blue?logo=react)  
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)  
-![API](https://img.shields.io/badge/API-Breaking%20Bad%20API-green)  
-![Hosting](https://img.shields.io/badge/Hosting-Vercel-black?logo=vercel)  
+![Vercel](https://img.shields.io/badge/ercel-black?logo=vercel)  
 
 ## About  
 
