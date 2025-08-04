@@ -1,5 +1,6 @@
 'use client'
 import { useState } from "react";
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const [quote, setQuote] = useState('');
@@ -62,6 +63,7 @@ export default function App() {
       <h1 style={headingStyle}>
         {author}
       </h1>
+      <Analytics />
     </div>
   );
 }
