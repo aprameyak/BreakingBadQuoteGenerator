@@ -1,0 +1,24 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="#00892b" stroke="#006622" stroke-width="8"/>
+  
+  <!-- Chemistry flask -->
+  <path d="M 180 120 L 180 380 Q 180 420 220 420 L 292 420 Q 332 420 332 380 L 332 120 Z" fill="#ffffff" stroke="#006622" stroke-width="4"/>
+  <path d="M 180 120 L 160 100 L 160 80 L 352 80 L 352 100 L 332 120" fill="#ffffff" stroke="#006622" stroke-width="4"/>
+  
+  <!-- Flask neck -->
+  <rect x="240" y="80" width="32" height="40" fill="#ffffff" stroke="#006622" stroke-width="4"/>
+  
+  <!-- Quote marks -->
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#00892b">"</text>
+  <text x="280" y="200" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#00892b">"</text>
+  
+  <!-- Small bubbles in flask -->
+  <circle cx="220" cy="300" r="8" fill="#e6f3ff" opacity="0.8"/>
+  <circle cx="260" cy="280" r="6" fill="#e6f3ff" opacity="0.8"/>
+  <circle cx="300" cy="320" r="10" fill="#e6f3ff" opacity="0.8"/>
+  <circle cx="240" cy="350" r="7" fill="#e6f3ff" opacity="0.8"/>
+  
+  <!-- App title text -->
+  <text x="256" y="480" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#ffffff">BB Quotes</text>
+</svg>

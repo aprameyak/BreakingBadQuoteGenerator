@@ -51,9 +51,12 @@ export default function App() {
 
   return (
     <div style={containerStyle}>
-      <h1 style={headingStyle}>
-        Breaking Bad Quote Generator
-      </h1>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '15px', backgroundColor: 'white', padding: '10px 20px', borderRadius: '8px', marginBottom: '20px' }}>
+        <img src="/icon.svg" alt="Breaking Bad Icon" style={{ width: '50px', height: '50px' }} />
+        <h1 style={{ ...headingStyle, margin: 0 }}>
+          Breaking Bad Quote Generator
+        </h1>
+      </div>
       <button style={buttonStyle} onClick={getQuote}>
         Generate
       </button>
