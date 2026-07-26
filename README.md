@@ -1,31 +1,26 @@
-# BreakingBad Quote Generator  
+# BreakingBadQuoteGenerator
 
-![React](https://img.shields.io/badge/React.js-20232A?logo=react&logoColor=white&style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
-![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)
 
-## About  
+## About
 
-The **BreakingBad Quote Generator** is a fun web application that displays random quotes from the iconic TV show, **Breaking Bad**. Built with **React.js and JavaScript**, the app fetches quotes from a public **Breaking Bad API** and dynamically displays them.  
+**BreakingBadQuoteGenerator** is a single-page web app that surfaces random quotes from Breaking Bad on demand. Built with **React** and **TypeScript**, it fetches from a public Breaking Bad quote API and displays the quote alongside the character who said it, updating instantly on each button press without a page reload.
 
-**Live Demo:** [breakingbadquotes-puce.vercel.app](https://breakingbadquotes-puce.vercel.app/)  
+## Features
 
-## Features  
+- Fetches random quotes from the Breaking Bad API on each request
+- Displays the quote text and character attribution together
+- Generate button triggers a new quote fetch with no page reload
+- Custom React hook (`useQuote`) encapsulates all fetching and state logic
+- Dedicated service layer (`quoteService`) separates API calls from UI components
+- Typed with TypeScript throughout — props, API responses, and state all have explicit types
 
-**Random Quotes:** Fetches and displays random quotes from Breaking Bad characters using the Breaking Bad API.  
-**Character Attribution:** Shows the name of the character alongside their quote.  
-**Interactive UI:** Users can press a **"Generate"** button to display a new quote and character.  
-**Fast and Responsive:** Built with **React.js and JavaScript** for a smooth experience.  
-**Hosted on Vercel:** Deployed for **scalable and easy access** with no server management.  
+## Technology Stack
 
-## Technology Stack  
+- **Frontend**: React, TypeScript
+- **API**: Breaking Bad Quotes API
 
-- **Frontend:** React.js, JavaScript  
-- **API:** Breaking Bad API *(fetches quotes and character names)*  
-- **Hosting:** Vercel  
+## Deployment
 
-## How It Works  
-
-1️ **React.js Interface:** The app displays a **random quote** along with the **character’s name**.  
-2️ **Generate Button:** When clicked, the app makes a request to the **Breaking Bad API** to fetch a new random quote.  
-3️ **Dynamic Display:** React's **state management** ensures smooth updates without page reloads.  
+Visit the live site at [https://breakingbadquotes-puce.vercel.app](https://breakingbadquotes-puce.vercel.app)
